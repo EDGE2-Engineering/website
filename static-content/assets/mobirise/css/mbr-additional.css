@@ -13412,3 +13412,19 @@ a {
   color: #ffffff;
   text-align: center;
 }
+.footer1{
+    background-color: #dadada;
+}
+.footer-address{
+    font-size: 18px;
+}
+.get-in-touch-link{
+    font-size: 18px;
+    color: #0c2c68;
+}
+.socicon{
+    color: #0c2c68 !important;
+}
+.copyright{
+    color: black !important;
+}
