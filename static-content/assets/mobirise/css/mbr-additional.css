@@ -13506,6 +13506,9 @@ display: flex !important;
     align-items: center;
     justify-content: center;
 }
+.cert-iso-spec-img{
+    border-radius: 1rem !important;
+}
 .btn-primary:hover{
     background-color: #68adf6 !important;
     border-color: #68adf6 !important;
