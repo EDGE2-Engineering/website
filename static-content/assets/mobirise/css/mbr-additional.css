@@ -13429,6 +13429,13 @@ a {
     color: black !important;
 }
 
+.cid-tJS6tZXiPa .navbar .dropdown > .dropdown-menu {
+    max-width: 600px !important;
+}
+.cid-tMlEXTHLbS .item-wrapper {
+    background: #ebebeb;
+}
+
 .why-us-bullet-point {
 /*    display: none !important;*/
 }
@@ -13442,7 +13449,14 @@ a {
     align-items: center;
     height: 100%;
 }
-
+.linked-in-profile-container{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.linked-in-profile-image{
+/*        width: 391px;*/
+}
 .features-image {
     align-items: center !important;
     display: flex;
@@ -13452,4 +13466,8 @@ a {
     width: 50%;
     height: 50%;
     object-fit: contain;
+}
+
+.artdeco-entity-image{
+    max-width: 25%!important;
 }
