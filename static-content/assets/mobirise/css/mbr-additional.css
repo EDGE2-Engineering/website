@@ -13454,9 +13454,38 @@ a {
     justify-content: center !important;
     align-items: center !important;
 }
-.linked-in-profile-image{
-/*        width: 391px;*/
+.linked-in-profile-container-div{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
+
+.linked-in-profile-image {
+    max-width: 200px!important;
+}
+
+.team-header{
+display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;  
+}
+
+#article08-2q{
+    padding-bottom: 0; 
+}
+
+#article98-2q{
+    padding-top: 0; 
+    padding-bottom: 0;
+}
+
+#article12-2r{
+    background-color: white;
+}
+.about-us-our-team-title{
+    padding-top: -10px important;
+}
+
 .features-image {
     align-items: center !important;
     display: flex;
@@ -13466,10 +13495,6 @@ a {
     width: 50%;
     height: 50%;
     object-fit: contain;
-}
-
-.artdeco-entity-image{
-    max-width: 25%!important;
 }
 
 .about-us-desc {
