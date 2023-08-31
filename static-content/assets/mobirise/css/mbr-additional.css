@@ -13471,3 +13471,53 @@ a {
 .artdeco-entity-image{
     max-width: 25%!important;
 }
+
+.about-us-desc {
+    font-weight: 300 !important;
+    color: white !important;
+}
+
+.btn-primary:hover{
+    background-color: #68adf6 !important;
+    border-color: #68adf6 !important;
+}
+.btn-primary-outline:hover {
+    background-color: #68adf6 !important;
+    border-color: #68adf6 !important;   
+}
+
+/*
+.cid-tJS6tZXiPa .navbar-nav .nav-item .nav-link:hover {
+    background-color: rgb(255 1 1);
+}
+*/
+
+/*
+.dropdown-item .dropdown-item:hover {
+    background-color: rgb(255 1 1);
+}*/
+
+
+/*
+@media (max-width: 992px) {
+    .cid-tJS6tZXiPa .navbar-nav .nav-item .nav-link:hover {
+        background-color: #68adf6;
+    }
+}
+@media (max-width: 768px) {
+    .cid-tJS6tZXiPa .navbar-nav .nav-item .nav-link:hover {
+        background-color: #68adf6;
+    }
+}
+*/
+.navbar-company-name {
+    display: none !important;
+}
+.cid-tJS6tZXiPa .navbar-nav .nav-item .nav-link:hover {
+    background-color: #68adf6;
+    color: white !important;
+}
+.cid-tJS6tZXiPa .navbar .dropdown > .dropdown-menu .dropdown-item:hover {
+     background-color: #68adf6;
+     color: white !important;
+}
