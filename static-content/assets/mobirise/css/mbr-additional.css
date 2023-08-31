@@ -13428,3 +13428,28 @@ a {
 .copyright{
     color: black !important;
 }
+
+.why-us-bullet-point {
+/*    display: none !important;*/
+}
+.why-us-bullet-point span {
+    color: #5b89e1 !important;
+}
+
+.edge-client-logo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+}
+
+.features-image {
+    align-items: center !important;
+    display: flex;
+}
+
+.edge-client-logo img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
