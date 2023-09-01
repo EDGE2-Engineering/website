@@ -16159,3 +16159,14 @@ a {
     background-color: #68adf6;
     color: white !important;
 }
+.block-pull-up {
+    padding-top: 10px;
+}
+.block-gray, .block-gray div {
+    background: #edefeb !important;
+    background-color: #edefeb !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    padding-top: 10px !important;
+    padding-bottom: 0px !important;
+}
