@@ -851,6 +851,11 @@ section.lazy-placeholder:after {
     opacity: 0.5;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -16159,9 +16164,11 @@ a {
     background-color: #68adf6;
     color: white !important;
 }
+
 .block-pull-up {
     padding-top: 10px;
 }
+
 .block-gray, .block-gray div {
     background: #edefeb !important;
     background-color: #edefeb !important;
