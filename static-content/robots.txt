@@ -24,4 +24,4 @@ Disallow: /category/
 Disallow: /*?
 Disallow: /wp-content/uploads/
 
-Sitemap: https://www.edge2.in/sitemap.xml
+Sitemap: https://www.edge2engineeringsolutions.com/sitemap.xml

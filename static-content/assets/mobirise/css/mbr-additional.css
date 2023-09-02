@@ -851,6 +851,11 @@ section.lazy-placeholder:after {
     opacity: 0.5;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -16075,12 +16080,17 @@ a {
 }
 
 .about-us-our-team-title {
-    padding-top: -10px important;
+    padding-top: -10px !important;
 }
 
 .features-image {
+    justify-content: center !important;
     align-items: center !important;
     display: flex;
+}
+
+.features-image img {
+    border-radius: 0px !important;
 }
 
 .edge-client-logo img {
@@ -16158,4 +16168,25 @@ a {
 .cid-tJS6tZXiPa .navbar .dropdown > .dropdown-menu .dropdown-item:hover {
     background-color: #68adf6;
     color: white !important;
+}
+
+.block-pull-up {
+    padding-top: 10px;
+}
+
+.block-gray, .block-gray div, .block-gray section {
+    background: #edefeb !important;
+    background-color: #edefeb !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    padding-top: 10px !important;
+    padding-bottom: 5px !important;
+}
+
+.cookie-wrapper p {
+    font-size: 15px;
+}
+.cookie-wrapper a {
+    padding: 0.2rem 1rem;
+    font-size: 15px;
 }
