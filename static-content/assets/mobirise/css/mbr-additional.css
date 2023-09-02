@@ -16084,8 +16084,13 @@ a {
 }
 
 .features-image {
+    justify-content: center !important;
     align-items: center !important;
     display: flex;
+}
+
+.features-image img {
+    border-radius: 0px !important;
 }
 
 .edge-client-logo img {
