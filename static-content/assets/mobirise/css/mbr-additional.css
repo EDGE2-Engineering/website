@@ -16174,13 +16174,13 @@ a {
     padding-top: 10px;
 }
 
-.block-gray, .block-gray div {
+.block-gray, .block-gray div, .block-gray section {
     background: #edefeb !important;
     background-color: #edefeb !important;
     margin-bottom: 0px !important;
     margin-top: 0px !important;
     padding-top: 10px !important;
-    padding-bottom: 0px !important;
+    padding-bottom: 5px !important;
 }
 
 .cookie-wrapper p {
