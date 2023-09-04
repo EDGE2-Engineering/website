@@ -3,18 +3,20 @@ import time
 import traceback
 
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-DRIVER_PATH = '/Users/ushakoujalgi/Downloads/chromedriver-mac-x64/chromedriver'
 
+# DRIVER_PATH = '/Users/ushakoujalgi/Downloads/chromedriver-mac-x64/chromedriver'
 
 # noinspection PyBroadException
 class TestBasic:
     def setup(self, url: str):
         self.url = url
-        self.driver = webdriver.Chrome(executable_path=DRIVER_PATH)
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         self.vars = {}
 
     def teardown(self):
@@ -22,7 +24,6 @@ class TestBasic:
 
     def test_download_brochure(self):
         self.driver.get(self.url)
-        # self.driver.fullscreen_window()
         timeout = 10
         try:
             element_present = WebDriverWait(self.driver, timeout).until(
@@ -50,8 +51,32 @@ class TestBasic:
             print(traceback.format_exc())
             self.teardown()
 
+    def test_iso_certificate(self):
+        self.driver.get(self.url)
+        timeout = 10
+        try:
+            element_present = WebDriverWait(self.driver, timeout).until(
+                EC.presence_of_element_located((By.CLASS_NAME, "mbr-section-btn")))
+            elements = self.driver.find_elements(By.CLASS_NAME, "mbr-section-btn")
+            for ele in elements:
+                if "View NABL Accreditation Certificate" in ele.text:
+                    self.driver.execute_script("arguments[0].scrollIntoView();", ele)
+                    print(ele.text)
+                    time.sleep(2)
+                    ele.click()
+                    time.sleep(2)
+                    if "embed" in self.driver.page_source:
+                        print("Found ISO certificate pdf - pass")
+                    else:
+                        print("Could not find ISO certificate pdf - fail")
+        except Exception as e:
+            print("Element not found on the page within the specified timeout. Quitting...")
+            time.sleep(3)
+            print(traceback.format_exc())
+            self.teardown()
 
 t1 = TestBasic()
 t1.setup(url="https://edge2engineeringsolutions.com/")
-t1.test_download_brochure()
+# t1.test_download_brochure()
+t1.test_iso_certificate()
 t1.teardown()
