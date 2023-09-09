@@ -16200,3 +16200,10 @@ a {
 .cid-tOrcBqhylL {
     padding-top: 0rem !important;
 }
+
+.dropdown-item {
+    width: 290px !important;
+    white-space: normal !important;
+    text-align: left !important;
+    word-break: break-word !important;
+}
