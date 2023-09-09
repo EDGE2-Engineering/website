@@ -1,0 +1,61 @@
+Geotechnical Investigation
+
+Field investigations are conducted using various Boring techniques, such as Auger Boring and Rotary/Hydraulic drilling.
+
+FIELD TESTS
+
+Standard Penetration Test - Calyx, PowerWinch - Hydraulic (Automatic SPT)
+Plate Load Test
+Field CBR
+Pile Load Test
+Static
+Dynamic
+Sand Replacement Test
+Core Cutter Method
+Pull out Test
+Electrical Resistivity Test
+Pile Integrity Test
+Field Permeability
+Cross Hole Seismic Test
+Seismic Refraction
+
+LAB TESTS
+Grain size Analysis
+Liquid and Plastic Limit
+Shrinkage Limit
+Free Swell Index
+Specific Gravity
+Water Content
+California Bearing Ratio (CBR)
+Point Load Index
+Direct Shear Test
+Heavy Compaction
+Light Compaction
+UCS on Rock Cores
+Consolidation Test
+Triaxial Test - UU
+Permeability Test
+Porosity on Rock
+
+
+PILING
+Bored Cast In situ piles
+Micropiles
+Contiguous piles
+Driven Piles
+
+GROUND IMPROVEMENT TECHNIQUES
+Shotcreting
+Soil Nailing
+Ground Anchors
+Dewatering
+Rain Water Harvesting
+Rock Bolting
+Grouting
+
+EARTH RETENTION STRUCTURES
+Anchored Sheet Pile
+Retaining walls
+
+LIQUEFACTION ANALYSIS
+SLOPE STABILITY ANALYSIS

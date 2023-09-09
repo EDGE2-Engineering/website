@@ -26,9 +26,7 @@ class TestBasic:
         self.driver.get(self.url)
         timeout = 10
         try:
-            element_present = WebDriverWait(self.driver, timeout).until(
-                EC.presence_of_element_located((By.CLASS_NAME, "btn-primary-outline"))
-            )
+            WebDriverWait(self.driver, timeout).until(EC.presence_of_element_located((By.CLASS_NAME, "btn-primary-outline")))
             elements = self.driver.find_elements(By.CLASS_NAME, "btn-primary-outline")
             for ele in elements:
                 if ele.text == "Download Brochure":
@@ -41,7 +39,7 @@ class TestBasic:
                     print(self.driver.page_source)
                     time.sleep(5)
                     if "html" in self.driver.page_source:
-                        print("PDF is loaded properly.")
+                        print("PDF is loaded properly."
                     else:
                         print("PDF may not have loaded correctly.")
                     break
@@ -55,8 +53,7 @@ class TestBasic:
         self.driver.get(self.url)
         timeout = 10
         try:
-            element_present = WebDriverWait(self.driver, timeout).until(
-                EC.presence_of_element_located((By.CLASS_NAME, "mbr-section-btn")))
+            WebDriverWait(self.driver, timeout).until(EC.presence_of_element_located((By.CLASS_NAME, "mbr-section-btn")))
             elements = self.driver.find_elements(By.CLASS_NAME, "mbr-section-btn")
             for ele in elements:
                 if "View NABL Accreditation Certificate" in ele.text:
@@ -75,8 +72,44 @@ class TestBasic:
             print(traceback.format_exc())
             self.teardown()
 
-t1 = TestBasic()
-t1.setup(url="https://edge2engineeringsolutions.com/")
+    def test_enquiry_form(self):
+        self.driver.get(self.url)
+        timeout = 10
+        try:
+            ele, element_found = self.find_element('nav-link', 'Enquire' )
+            if element_found:
+                time.sleep(3)
+                self.driver.execute_script("arguments[0].scrollIntoView();", ele)
+                time.sleep(2)
+                ele.click()
+                time.sleep(2)
+        except Exception as e:
+            print("Element not found on the page within the specified timeout. Quitting...")
+            time.sleep(3)
+            print(traceback.format_exc())
+            self.teardown()
+
+    def find_element(self, cname, element_val):
+        self.cname = cname
+        self.element_val = element_val
+        self.driver.get(self.url)
+        ele_found = False
+        timeout = 10
+        try:
+            element_present = WebDriverWait(self.driver, timeout).until(
+                EC.presence_of_element_located((By.CLASS_NAME, "nav-link")))
+            elements = self.driver.find_elements(By.CLASS_NAME, "nav-link")
+            for ele in elements:
+                if ele.text == self.element_val:
+                    ele_found = True
+                    return ele, ele_found
+        except Exception as e:
+            print("Element not found on the page within the specified timeout. Quitting...")
+
+
+t = TestBasic()
+t.setup(url="https://edge2engineeringsolutions.com/")
 # t1.test_download_brochure()
-t1.test_iso_certificate()
-t1.teardown()
+# t.test_iso_certificate()
+t.test_enquiry_form()
+t.teardown()
