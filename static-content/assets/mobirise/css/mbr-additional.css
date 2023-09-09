@@ -16191,3 +16191,12 @@ a {
     padding: 0.2rem 1rem;
     font-size: 15px;
 }
+
+.img-wrapper {
+    align-items: center !important;
+    display: flex !important;
+}
+
+.cid-tOrcBqhylL {
+    padding-top: 0rem !important;
+}
