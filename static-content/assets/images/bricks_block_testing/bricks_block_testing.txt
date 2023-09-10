@@ -1,8 +1,9 @@
 CONCRETE AND PRE-CASTED BLOCKS
-Our Laboratory is Equipped with “Matest Servoplus Evolution” high performance Digital Compression Testing Machine with a capacity of two load frames 2000kN, 500kN. In addition to the above we also have Automatic Flexure Testing Machines which have been designed to meet the need for reliable and consistent testing of Flexural test on standard concrete beams.
-Some Key Feature of Digital Compression Testing Machine is Digital Graphic Display allows Real Time Load Vs Time Graph and Accurate maintenance of Pace rate control.
-Below are some of the Test conducted in our laboratory to Determine the Quality of Concrete and Pre-Casted Blocks.
-Test conducted on Building Bricks.
+Our laboratory is equipped with the "Matest Servoplus Evolution," a high-performance digital compression testing machine that boasts a 2000kN and 500kN capacity for two load frames. Additionally, we have automatic flexure testing machines designed to ensure the reliability and consistency of flexural testing on standard concrete beams.
+
+Some notable features of the Digital Compression Testing Machine include a digital graphic display that provides real-time load versus time graphs and precise pace rate control.
+
+Below, you will find a list of tests conducted in our laboratory to assess the quality of concrete and precast blocks, including tests performed on building bricks.
 	•	Dimension
 	•	Compressive Strength
 	•	Efflorescence
@@ -13,14 +14,12 @@ Test conducted on Solid & Hollow Blocks
 	•	Compressive Strength
 	•	Water Absorption
 	•	Block Density
+
 Test Conducted on Paver Blocks
 	•	Compressive Strength
 	•	Water Absorption
-
-	•	Laboratory has also facility to find out the Strength of Hardened Concrete,                   In this method Concrete is extracted in the shape of Cores / Cylinders from Reinforced Concrete Members free from reinforcement, then sent to laboratory to find out the Strength of Concrete.
-
-	•	Laboratory has also facility to perform ACCELERATED-CURED CONCRETE TEST, Accelerated Curing Method is used to get early Compressive Strength in concrete. This method is also used to find out 28 days compressive strength of concrete in 28 hours.
-	•	Compressive Strength below mentioned Materials are also determined.
+	•	Laboratory has also facility to find out the Strength of Hardened Concrete. In this procedure, concrete is extracted in the form of cores or cylinders from reinforced concrete structures devoid of any reinforcement and subsequently transported to the laboratory for the purpose of determining the concrete's strength.
+    •	Our laboratory is equipped to conduct the ACCELERATED-CURED CONCRETE TEST, which employs an Accelerated Curing Method to attain rapid compressive strength results in concrete. This approach is also employed to determine the 28-day compressive strength of concrete within a mere 28 hours.	•	Compressive Strength below mentioned Materials are also determined.
 	•	Concrete Cubes
 	•	Concrete Core
 	•	Kerb Stones
