@@ -1,0 +1,13 @@
+AGGREGATE TEST
+Aggregates are tested for strength, Toughness, Hardness, Shape and Water Absorption to decide the suitability for all types of Constructions.
+Some of the tests conducted on Coarse and Fine aggregates as per Indian Standards are mentioned below
+	•	Sieve Analysis
+	•	Bulk Density (Loose &Compacted)
+	•	Materials finer than 75micron
+	•	Specific Gravity & Water Absorption
+	•	Flakiness & Elongation Index
+	•	10% Fines Value
+	•	Aggregate Crushing Value
+	•	Aggregate Impact Value
+	•	Bulking
+	•	Los-Angeles Abrasion Test
