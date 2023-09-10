@@ -1,6 +1,6 @@
 AGGREGATE TEST
-Aggregates are tested for strength, Toughness, Hardness, Shape and Water Absorption to decide the suitability for all types of Constructions.
-Some of the tests conducted on Coarse and Fine aggregates as per Indian Standards are mentioned below
+Aggregates undergo testing for strength, toughness, hardness, shape, and water absorption to determine their suitability for various construction purposes.
+Below, you'll find a list of some of the tests performed on both coarse and fine aggregates in accordance with Indian Standards.
 	•	Sieve Analysis
 	•	Bulk Density (Loose &Compacted)
 	•	Materials finer than 75micron

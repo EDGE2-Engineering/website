@@ -1,0 +1,22 @@
+Non-Destructive Testing
+Non-destructive testing is a valuable method employed to evaluate concrete characteristics, encompassing strength and other factors such as concrete grade, presence of reinforcement steel, concrete quality, concrete cover, reinforcement corrosion, permeability, cracks, and voids within concrete structures. The following outlines several types of non-destructive testing methods at our disposal:
+
+Rebound Hammer Test:
+The rebound hammer test is conducted to estimate the concrete strength in structural components such as slabs, beams, columns, and concrete walls.
+The fundamental concept underlying the rebound hammer test involves pressing the plunger of the rebound hammer onto the concrete surface. Subsequently, the spring-controlled mass rebounds, and the magnitude of this rebound is contingent on the concrete's surface hardness. A sliding indicator then measures the distance the hammer bounces back on a linear scale. The resulting rebound number is then correlated with the actual compressive strength of the concrete.
+
+Ultra Sonic Pulse Velocity Test
+The ultrasonic pulse velocity test is conducted to assess concrete for homogeneity, quality, the presence of cracks, cavities, and defects.
+The underlying principle of the ultrasonic pulse velocity test involves the generation of an ultrasonic pulse through an electroacoustical transducer. This pulse is introduced into the concrete, where it experiences numerous reflections at the interfaces between various material phases within the concrete. The receiving transducer identifies the initiation of the fastest longitudinal waves. By measuring the time it takes for these waves to travel from the transducer to the receiver, the velocity is determined. Subsequently, the quality of the concrete is assessed based on this velocity measurement.
+
+
+Half-Cell Potential Test
+
+The half-cell potential test is conducted to monitor the corrosion of reinforcing steel within concrete structures.
+The principle underlying the Half-cell Potential test involves measuring the potential of an embedded reinforcing bar in relation to a reference half-cell positioned on the concrete surface.
+
+
+Rebar Locator / Rebar Mapping / Covermeter Test
+The rebar locator test is conducted to determine various aspects in concrete members, such as the size of bars, their location within the concrete, and the depth of concrete covers.
+
+
