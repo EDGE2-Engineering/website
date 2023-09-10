@@ -13,7 +13,6 @@ function renderGallery(sourceDir, imagesList) {
                                         <div class="icon-wrapper">
                                             <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
                                         </div>
-
                                     </div>
                                 </div>`;
         let active = '';
@@ -24,7 +23,7 @@ function renderGallery(sourceDir, imagesList) {
             ariaCurrent = 'aria-current="true"';
             activeClass = `class='${active.trim()}'`;
         }
-        const carousel = `<div class="carousel-item ${active}" style="top: 10px;">
+        const carousel = `<div class="carousel-item ${active}">
                                     <img class="d-block w-100" src="${image}"
                                          alt="civil construction material testing laboratory">
                                 </div>`;
