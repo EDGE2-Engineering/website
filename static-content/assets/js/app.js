@@ -7,7 +7,7 @@ function renderGallery(sourceDir, imagesList) {
         const thumbnail = `<div class="col-12 col-md-6 col-lg-3 item gallery-image">
                                     <div class="item-wrapper mb-3" data-toggle="modal" data-bs-toggle="modal"
                                          data-target="#tPqUj7W7Px-modal" data-bs-target="#tPqUj7W7Px-modal">
-                                        <img class="w-100" src="${image}" alt="Mobirise Website Builder"
+                                        <img class="w-100" src="${image}" alt="civil construction material testing laboratoryk"
                                              data-slide-to="${idx}" data-bs-slide-to="${idx}" data-target="#lb-tPqUj7W7Px"
                                              data-bs-target="#lb-tPqUj7W7Px">
                                         <div class="icon-wrapper">
@@ -26,7 +26,7 @@ function renderGallery(sourceDir, imagesList) {
         }
         const carousel = `<div class="carousel-item ${active}" style="top: 10px;">
                                     <img class="d-block w-100" src="${image}"
-                                         alt="Mobirise Website Builder">
+                                         alt="civil construction material testing laboratory">
                                 </div>`;
         const carouselIndicator = `<li data-slide-to="${idx}" data-bs-slide-to="${idx}" data-target="#lb-tPqUj7W7Px"
                                             data-bs-target="#lb-tPqUj7W7Px" ${activeClass}>
