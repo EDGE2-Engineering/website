@@ -16207,3 +16207,6 @@ a {
     text-align: left !important;
     word-break: break-word !important;
 }
+.wrapper-bg-reset{
+    background: white !important;
+}
