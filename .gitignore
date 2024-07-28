@@ -1,3 +1,4 @@
 .github/workflows/.DS_Store
 .DS_Store
 .idea/
+!.idea/icon.svg
