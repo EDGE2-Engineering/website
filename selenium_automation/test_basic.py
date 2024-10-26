@@ -108,7 +108,7 @@ class TestBasic:
 
 
 t = TestBasic()
-t.setup(url="https://edge2engineeringsolutions.com/")
+t.setup(url="https://edge2.in/")
 # t1.test_download_brochure()
 # t.test_iso_certificate()
 t.test_enquiry_form()
